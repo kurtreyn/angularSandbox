@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   title: string = 'Angular Sandbox';
+
+  toggleAddTask() {
+    console.log('toggle');
+  }
 }
